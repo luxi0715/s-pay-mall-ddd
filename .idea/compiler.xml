@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="s-pay-mall-app" />
+        <module name="s-pay-mall-trigger" />
+        <module name="s-pay-mall-domain" />
+        <module name="s-pay-mall-types" />
+        <module name="s-pay-mall-api" />
+        <module name="s-pay-mall-infrastructure" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="s-pay-mall-api" options="-parameters" />
+      <module name="s-pay-mall-app" options="-parameters" />
+      <module name="s-pay-mall-ddd" options="-parameters" />
+      <module name="s-pay-mall-domain" options="-parameters" />
+      <module name="s-pay-mall-infrastructure" options="-parameters" />
+      <module name="s-pay-mall-trigger" options="-parameters" />
+      <module name="s-pay-mall-types" options="-parameters" />
+    </option>
+  </component>
+</project>
